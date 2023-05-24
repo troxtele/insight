@@ -66,21 +66,26 @@ header {
   background-color: var(--black);
   position: relative;
 }
+
 header .wrapper {
   padding: 1.5rem;
 }
+
 header .wrapper .main-logo {
   display: flex;
   align-items: center;
   gap: 0.8rem;
   color: var(--white);
 }
+
 header .wrapper h3 {
   font-size: 1.4rem;
 }
+
 header .wrapper img {
   width: 1.8rem;
 }
+
 header .padding {
   display: block;
   width: 100%;
@@ -102,6 +107,7 @@ main {
   width: 294px;
   background-color: var(--sidebar-bg);
 }
+
 .sidenav .wrapper {
   position: sticky;
   top: 0;
@@ -110,9 +116,11 @@ main {
   flex-direction: column;
   gap: 2rem;
 }
+
 .sidenav .left-content {
   padding: 0 2rem;
 }
+
 .sidenav .left-content .label {
   display: flex;
   justify-content: space-between;
@@ -121,12 +129,15 @@ main {
   min-width: 12rem;
   cursor: pointer;
 }
+
 .sidenav .left-content .label h3 {
   display: block;
 }
+
 .sidenav .left-content svg {
   transition: 0.3s ease-in-out;
 }
+
 .sidenav .left-content ul {
   border: 1px solid transparent;
   border-radius: 12px;
@@ -137,6 +148,7 @@ main {
   height: 100%;
   transition: 0.3s ease-in-out;
 }
+
 .sidenav .left-content ul a {
   display: flex;
   padding: 0.7rem 1rem;
@@ -145,9 +157,11 @@ main {
   cursor: pointer;
   border-radius: 10px;
 }
+
 .sidenav .left-content ul .active {
   background-color: var(--light-green);
 }
+
 .sidenav .left-content .heightwidth {
   max-height: 220px;
   width: unset;
@@ -174,16 +188,19 @@ main {
   gap: 2.2rem;
   flex-direction: column;
 }
+
 .static-images .img .position-img {
   margin-left: 3rem;
   margin-top: -1.5rem;
 }
+
 .static-images .img span {
   display: flex;
   max-width: 42.25rem;
   margin-bottom: 0.7rem;
   font-size: 1.02rem;
 }
+
 .static-images img {
   display: flex;
   width: 100%;
@@ -204,10 +221,12 @@ main {
 .analyst {
   width: 100%;
 }
+
 .analyst h2 {
   color: var(--header-color);
   font-size: 1.4rem;
 }
+
 .analyst .paras {
   margin-bottom: 4rem;
 }
@@ -215,26 +234,33 @@ main {
 .filters .ranges {
   margin-top: 1rem;
 }
+
 .filters .ranges img {
   max-width: 25rem;
 }
+
 .filters .checkbox {
   margin-top: 2.5rem;
 }
+
 .filters .checkbox img {
   max-width: 27rem;
 }
+
 .filters .checkbox span {
   margin-top: 1.5rem;
   display: flex;
 }
+
 .filters .checkbox ul {
   margin-top: 0.8rem;
 }
+
 .filters .checkbox li {
   list-style: disc;
   margin-left: 1.7rem;
 }
+
 .filters .checkbox .checkbox-img {
   margin-top: 2.5rem;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
