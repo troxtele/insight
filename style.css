@@ -72,6 +72,7 @@ header .wrapper {
 header .wrapper .main-logo {
   display: flex;
   align-items: center;
+  margin-left: 1.5rem;
   gap: 0.8rem;
   color: var(--white);
 }
@@ -217,12 +218,14 @@ main {
 }
 .filters .ranges img {
   max-width: 25rem;
+  width: 100%;
 }
 .filters .checkbox {
   margin-top: 2.5rem;
 }
 .filters .checkbox img {
   max-width: 27rem;
+  width: 100%;
 }
 .filters .checkbox span {
   margin-top: 1.5rem;
